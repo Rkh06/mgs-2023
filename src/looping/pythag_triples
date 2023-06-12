@@ -1,0 +1,7 @@
+for b in range (1,100):
+    for a in range (1,100):
+        if b==a:
+            break
+        for c in range (1,1000):
+            if (a*a+b*b==c*c):
+                    print (b,a,c)
